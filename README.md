@@ -16,7 +16,7 @@ level, respectively.
 The `--sourceplots` flag will show a plot for each source 
 that shows a cut-out area of the image centered on the source.
 
-The script also outputs a csv file consisting of 8 columns:
+The script also outputs a csv file consisting of 7 columns:
 
 RA and DEC
 
@@ -40,7 +40,7 @@ majority of sources are not visible in the tt1 images. So when
 an S/N above 5 is obtained from tt1, the gamma is calculated,
 otherwise "NaN" is returned* 
 
-# Improvements
+# Possible improvements
 
 Add location/size selector of background area and add boundary conditions.
 
